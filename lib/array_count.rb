@@ -1,8 +1,7 @@
 
 
 def count_strings(array)
-  array.count { |x|  }
-  array.count
+  array.count { |x| x.class == String }
 end 
  
  
